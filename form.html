@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Cource Registration Form</h1>
+    <fieldset ><legend>Personal Details</legend>
+    <from action="">
+      <label>First Name : </label>
+      <input type="text" name="FN" placeholder="ex: Yashu" /> <br />
+      <br />
+      <label>Surname : </label>
+      <input type="text" name="LN" placeholder="ex: Gowda" /><br />
+      <br />
+      <label>Mobile : </label>
+      <input type="number" name="mob" placeholder="ex: 7676140255" /><br />
+      <br />
+      <label>Email :</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="ex: yashu@gmail.com"
+      /><br />
+      <br />
+      <label>Password :</label>
+      <input type="password" name="pass" placeholder="ex: 1234" /><br />
+      <br />
+      <label>Confirm Password :</label>
+      <input type="password" name="conpass" placeholder="ex: 1234" /><br />
+      <br />
+      <label>Date of Birth : </label>
+      <input type="date" name="dob" placeholder="ex: 27/11/2000" /><br />
+      <br />
+      <label>Gender : </label>
+      <input type="radio" name="male" value="M" />Male
+      <input type="radio" name="female" value="F" />Female
+      <input type="radio" name="custom" value="C" />Costom<br />
+      <br />
+      <label>Select Country : </label>
+      <select name="Country">
+        <option value="india">India</option>
+        <option value="china">China</option>
+        <option value="america">America</option></select
+      ><br />
+      <br />
+      <label>Upload Picture : </label>
+      <input type="file" /><br />
+      <br />
+      <input type="reset" />
+      </fieldset>
+      <br/>
+      <br/>
+      <fieldset><legend>Cource Details</legend>
+        <br/>
+        <label>Select Cource : </label><br/><br/>
+        <select name="Select">
+            <option value="java">Java Developer</option>
+            <option value="abdroid">Android Developer</option>
+            <option value="full stack">Full Stack Developer</option>
+        </select><br/>
+        <br/>
+        <label>Delivery Mode : </label>
+        <input type="checkbox" name="mode" value="on"/>ONLINE
+        <input type="checkbox" name="mode" value="off"/>OFFLINE<br/>
+        <br/>
+        <label>Comments</label>
+        <br/>
+        <textarea name="comments" cols="40" rows="4"></textarea>
+      </fieldset> <br/> <br/>
+      <input type="submit"/>
+    </from>
+  </head>
+  <body></body>
+</html>
