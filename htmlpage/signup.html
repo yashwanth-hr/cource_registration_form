@@ -1,0 +1,107 @@
+<html lang="en">
+  <link rel="stylesheet" href="/css_styling/signup.css" />
+  <head>
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h1>Signup Form</h1></legend>
+
+      <form action="">
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <div class="name-wrapper">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter your name"
+                  name="name"
+                  required
+                />
+                <p id="paraname">Enter your Name</p>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>College: </label></td>
+            <td><input type="text" name="college" disabled /><br /></td>
+          </tr>
+
+          <tr>
+            <td><label>Primary Email: </label></td>
+            <td>
+              <input
+                type="email"
+                placeholder="Enter Primary Email"
+                name="pemail"
+                required
+              /><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Secondary Email: </label></td>
+            <td>
+              <input
+                type="email"
+                placeholder="Enter Secondary Email"
+                name="semail"
+              /><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Password: </label></td>
+            <td>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                name="password"
+                required
+              /><br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input type="radio" name="gender" value="M" />
+              <label>Male</label>
+              <input type="radio" name="gender" value="F" />
+              <label>Female</label>
+              <input type="radio" name="gender" value="O" />
+              <label>Other</label>
+              <br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Date of Birth: </label></td>
+            <td><input type="date" name="dob" /><br /></td>
+          </tr>
+
+          <tr>
+            <td><label>Age: </label></td>
+            <td>
+              <input type="number" name="age" size="3" min="18" max="100" />
+              <br />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>MOD: </label></td>
+            <td>
+              <input placeholder="Online" name="mod" disabled value="online" />
+              <br />
+            </td>
+          </tr>
+        </table>
+
+        <input type="submit" />
+      </form>
+    </fieldset>
+  </body>
+</html>
