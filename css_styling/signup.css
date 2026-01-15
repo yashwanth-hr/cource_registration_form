@@ -1,0 +1,27 @@
+#paraname {
+  background-color: red;
+  color: white;
+  display: none;
+  padding: 2px;
+}
+
+.name-wrapper input:hover + #paraname {
+  display: inline;
+}
+
+input[type="radio"]:checked {
+  width: 17px;
+  height: 17px;
+}
+
+input[type="radio"]:checked + label {
+  color: red;
+}
+
+input[required] {
+  border: 2px solid violet;
+}
+
+input[required]:focus {
+  background: yellow;
+}
